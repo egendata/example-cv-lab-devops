@@ -23,6 +23,12 @@
         "registryUrl": "docker.io",
         "name": "jobtechswe/example-cv-lab-devops"
       }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "bash ./.deploy.bash ${nextRelease.version}"
+      }
     ]
   ]
 }
