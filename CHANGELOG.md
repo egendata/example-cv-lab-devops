@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/egendata/example-cv-lab-devops/compare/v0.1.0...v0.1.1) (2019-10-15)
+
+
+### Bug Fixes
+
+* 🐛 rename bash file ([c0f5e8a](https://github.com/egendata/example-cv-lab-devops/commit/c0f5e8a3886d95ee886428b82f16af9238a10548))
+
 # [0.1.0](https://github.com/egendata/example-cv-lab-devops/compare/v0.0.1...v0.1.0) (2019-10-15)
 
 
