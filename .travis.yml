@@ -1,0 +1,11 @@
+jobs:
+  include:
+    - stage: publish
+      language: node_js
+      install:
+        - npm ci
+      script: npx semantic-release
+
+stages:
+  - name: publish
+    if: (branch ==master AND type != pull_request)

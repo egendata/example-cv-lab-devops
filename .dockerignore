@@ -1,0 +1,19 @@
+# git
+.git
+.gitignore
+.gitattributes
+
+# docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+
+# misc
+**/*.md
+.env
+.next
+.nvmrc
+.travis.yml
+__tests__
+LICENSE
+node_modules
