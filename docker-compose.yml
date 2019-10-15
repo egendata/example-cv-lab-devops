@@ -1,0 +1,21 @@
+version: '3'
+services:
+  redis-cv:
+    image: redis:4.0-alpine
+    ports:
+      - 6380:6379
+    environment:
+      - REDIS_PASSWORD=fubar
+    command: sh -c 'redis-server --requirepass $${REDIS_PASSWORD}'
+
+#  cv:
+#    build: .
+#    environment:
+#      - PORT=4000
+#      - REDIS=redis://:fubar@redis-cv:6380/
+#      - APP_NAME=mydata-cv
+#      - APM_SERVER=http://apm-server:8200
+#    ports:
+#      - 4000:4000
+#    depends_on:
+#      - redis-cv
